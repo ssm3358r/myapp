@@ -51,11 +51,11 @@ export default function TextForm(props) {
     
     <textarea className="form-control" value={text} onChange={handleOnChange} style={{backgroundColor:props.mode==="light"?"white":"#17152a",color:props.mode==="dark"?"white":"black"}} id="myBox" rows="8"></textarea>
   </div>
-<button className="btn btn-secondary mx-2" onClick={handleUpClick}>Convert the Text into UpperCase</button>
-<button className="btn btn-secondary mx-2" onClick={handleLoClick}>Convert the Text into LowerCase</button>
-<button className="btn btn-secondary mx-2" onClick={capitaliseClick}>Capitalize the word</button>
-<button className="btn btn-secondary mx-2" onClick={remExtraSpace}>remove space</button>
-<button className="btn btn-secondary mx-2" onClick={handleCopy}>Copy Clipboard</button>
+<button className="btn btn-secondary mx-2 my-2" onClick={handleUpClick}>Convert the Text into UpperCase</button>
+<button className="btn btn-secondary mx-2 my-2" onClick={handleLoClick}>Convert the Text into LowerCase</button>
+<button className="btn btn-secondary mx-2 my-2" onClick={capitaliseClick}>Capitalize the word</button>
+<button className="btn btn-secondary mx-2 my-2" onClick={remExtraSpace}>remove space</button>
+<button className="btn btn-secondary mx-2 my-2" onClick={handleCopy}>Copy Clipboard</button>
     </div>
     <div style={{color:props.mode==="dark"?"white":"black"}} className="container my-3">
   <h1>text summary</h1>
